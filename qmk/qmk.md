@@ -18,4 +18,4 @@ $ `ln -f ~/the-lochlan-keyboard ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keym
 - to flash the new keyboard settings run  
 - when flashing you have to be in the `~/qmk_firmware` directory
 $ `qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard`
-- if that doesn't  work then add sudo to the start
+- if that doesn't work then add sudo to the start
