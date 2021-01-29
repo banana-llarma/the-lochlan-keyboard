@@ -7,7 +7,7 @@
 ### make a keymap
 
 - clone the git repo  
-$ `git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~`
+$ `git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/the-lochlan-keyboard`
 
 - link the template  
 $ `mkdir ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
