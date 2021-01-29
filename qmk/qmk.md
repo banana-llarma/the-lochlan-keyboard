@@ -12,9 +12,10 @@ $ `git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/the
 - link the template  
 $ `mkdir ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
 
-$ `ln -f ~/the-lochlan-keyboard-project.git ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
+$ `ln -f ~/the-lochlan-keyboard ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
 
 - now if you edit in the keyboard in the template file  
 - to flash the new keyboard settings run  
+- when flashing you have to be in the `~/qmk_firmware` directory
 $ `qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard`
 - if that doesn't  work then add sudo to the start

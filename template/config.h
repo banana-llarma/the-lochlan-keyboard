@@ -12,7 +12,6 @@
 // tap anyway, even after TAPPING_TERM, if there was no other key interruption between press and release
 #define RETRO_TAPPING
 
-
 // makes it possible to do rolling combos (zx) with keys that convert to other keys on hold, by enforcing the TAPPING_TERM for both keys.
 #define IGNORE_MOD_TAP_INTERRUPT
 
