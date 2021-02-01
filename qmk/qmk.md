@@ -7,15 +7,15 @@
 ### make a keymap
 
 - clone the git repo  
-$ `git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/the-lochlan-keyboard`
+$ `git clone git@github.com:banana-llarma/the-lochlan-keyboard.git ~/the-lochlan-keyboard`
 
 - link the template  
-$ `mkdir ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
+$ `mkdir ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard && ln -f ~/the-lochlan-keyboard ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
 
-$ `ln -f ~/the-lochlan-keyboard ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard`
-
-- now if you edit in the keyboard in the template file  
+- now you can change your keyboard layout in the `keymap.c` file in `~/the-lochlan-keyboard/template` directory
 - to flash the new keyboard settings run  
-- when flashing you have to be in the `~/qmk_firmware` directory
 $ `qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard`
-- if that doesn't work then add sudo to the start
+- if that doesn't work make sure you are in `~/qmk_firmware` directory
+
+- run this if the command about doesn't work
+$ `cd ~/qmk_firmware && sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard`
