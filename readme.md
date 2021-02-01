@@ -6,5 +6,5 @@ To change the layout ask malachi or spend a long time trying to figure out how q
 
 The layout that malachi would use is this
 
-![img]()
+![img](https://github.com/banana-llarma/the-lochlan-keyboard/blob/main/img/malachi's-65%25-keyboard-layout.jpg)
 
