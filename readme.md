@@ -5,7 +5,7 @@
 - When you hold the space key you go into the fn mode
 
 - if you want to change the layout ask malachi or go through the qmk documenation
-- if you want I can change the keyboard layout to have a big enter key and split shift left shift key to be like your laptop keyboard
+- if you want you can change the keyboard layout to be iso like your laptop
 
 - this is the sort of layout I would use
 
