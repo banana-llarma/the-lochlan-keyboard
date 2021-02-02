@@ -9,7 +9,7 @@
 
 - The layout that malachi would use is this
 
-![img](https://github.com/banana-llarma/the-lochlan-keyboard/blob/main/img/malachi's-65%25-keyboard-layout.jpgg/malachi's-65%25-keyboard-layout.jpg)
+![img](https://github.com/banana-llarma/the-lochlan-keyboard/blob/main/img/malachi's-65%25-keyboard-layout.jpg)
 
 - link to the img
 
