@@ -19,7 +19,11 @@ BACKLIGHT_ENABLE = yes
 # Enable unicode
 UNICODE_ENABLE = yes
 
+# Enables mouse buttons
+MOUSEKEY_ENABLE = yes
+
 # Keyboard layouts
 LAYOUTS = 65_ansi 65_iso 65_ansi_blocker 65_ansi_blocker_split_bs
+
 
 
