@@ -15,6 +15,6 @@
 // makes it possible to do rolling combos (zx) with keys that convert to other keys on hold, by enforcing the TAPPING_TERM for both keys.
 #define IGNORE_MOD_TAP_INTERRUPT
 
-// When the user holds a key after tapping it, the tapping function is repeated by default
-#define TAPPING_FORCE_HOLD
+// When stops repeting a tap mod key when holding it after a tap
+/* #define TAPPING_FORCE_HOLD */
 

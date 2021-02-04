@@ -11,10 +11,10 @@ EXTRAKEY_ENABLE = yes
 NKRO_ENABLE = yes
 
 # Enable keyboard underlight functionality
-RGBLIGHT_ENABLE = yes
+RGBLIGHT_ENABLE = no
 
 # Enable keyboard backlight functionality
-BACKLIGHT_ENABLE = yes
+BACKLIGHT_ENABLE = no
 
 # Enable unicode
 UNICODE_ENABLE = yes
